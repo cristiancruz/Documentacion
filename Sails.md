@@ -55,7 +55,7 @@
 		 -  **name/:id   	=> DELETE** =  destroy
 1. Trabajar con los modelos:
 	- Dirigirse a api/model/nameModel y ahi agregar los campos requeridos, un ejemplo seria:
-			module.exports = {
+```			module.exports = {
  			 attributes: {
 				name:{
 			        type: 'string',
@@ -92,3 +92,4 @@
 					}
 				},
 			};
+```
